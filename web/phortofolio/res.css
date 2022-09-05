@@ -1,0 +1,751 @@
+/* ipad */
+@media all and (max-width: 1000px){
+    .nav{
+        width: 100%;
+        height: 63px;
+        background-color: rgba(5, 22, 34, 0.8);
+        display: flex;
+    }
+
+    .nav h1{
+        display: none;
+    }
+
+    .navigasi{
+        position: absolute;
+        width: 100%;
+    }
+
+    .navigasi div{
+        display: flex;
+    }
+
+    .navigasi a{
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+
+    #kontak{
+        display: none;
+    }
+
+    .sosmed{
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+        left: 0;
+    }
+
+    .photo{
+        display: block;
+        width: 100%;
+        height: 450px;
+    }
+
+    .foto{
+        top: 20%;
+    }
+
+    .foto img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .foto h1{
+        font-size: 20px;
+    }
+    
+    .pendidikan h3{
+        width: 100%;
+        padding: 0;
+        font-size: 20px;
+        padding-top: 10px;
+        text-indent: 40px;
+    }
+
+    .pendidikan a{
+        margin-left: 0px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    .skill img{
+        display: none;
+    }
+    
+    .myskill{
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+
+    #sus{
+        margin-left: -10%;
+    }
+    
+    .myskill h3{
+        font-size: 20px;
+        margin-top: 7px;
+        margin-left: 8%;
+        padding-bottom: 5px;
+        font-weight: bold;
+        display: flex;
+    }
+    
+    .myskill span{
+        width: 150px;
+        height: 10px;
+        margin-top: 6px;
+        margin-left: 0px;
+        background-color: #051622;
+        border-radius: 50px;
+        display: block;
+    }
+
+    /* first skill */
+    .pth span{
+        margin-left: 58px;
+        width: 135px;
+    }
+
+    .jav span{
+        margin-left: 82px;
+        width: 144px;
+    }
+
+    .html span{
+        margin-left: 71px;
+        width: 144px;
+    }
+
+    .css span{
+        margin-left: 85px;
+        width: 162;
+    }
+
+    .js span{
+        margin-left: 25px;
+        width: 108px;
+    }
+
+    .sql span{
+        margin-left: 85px;
+        width: 90px;
+    }
+
+
+    /* second skill */
+    .unity span{
+        margin-left: 126px;
+        width: 72px;
+
+    }
+
+    .pts span{
+        margin-left: 72px;
+        width: 90px;
+
+    }
+
+    .com span{
+        margin-left: 25px;
+        width: 126px;
+
+    }
+
+    .eng span{
+        margin-left: 104px;
+        width: 144px;
+
+    }
+
+    .lead span{
+        margin-left: 69.5px;
+        width: 162px;
+    }
+
+    .cr span{
+        margin-left: 97.5px;
+        width: 162px;
+    }
+
+
+    .pengalaman ul{
+        margin-left: 0px;
+    }
+
+    .pengalaman li{
+        font-size: 20px;
+    }
+
+    .pengalaman p{
+        font-size: 16px;
+        text-indent: 15px;
+    }
+
+    #rentalbus{
+        font-size: 16px;
+    }
+
+    .OE{
+        justify-content: space-between;
+        width: 97%;
+    }
+    
+    .OE #kedua{
+        margin-left: 0;
+    }
+    
+    .ACHIEVEMENT{
+        width: 100%;
+    }
+    
+    .srt{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #lanjutan{
+        padding-left: 0;
+    }
+    
+    .srt img{
+        width: 150px;
+        height: auto;
+        box-shadow: 10px 10px #051622;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .srt img:hover{
+        box-shadow: 10px 10px #051622;;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .popup-image span{
+        display: none;
+    }
+
+    .popup-image img{
+        top: 50%;
+        left: 50%;
+        width: 600px;
+    }
+    
+    .tombol{
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        background-color: #051622;
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+    
+    #bottom{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .bt a{
+        padding: 0;
+        border-radius: 5px;
+    }
+    
+    .bt img{
+        width: 30px;
+        height: 30px;
+        opacity: 0.7;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    .bt img:hover{
+        opacity: 1;
+    }
+}
+
+
+/* phone */
+@media all and (max-width: 670px){
+    .nav{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .nav h1{
+        display: block;
+        text-align: left;
+        text-indent: 20px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .navigasi{
+        position: absolute;
+        width: 100%;
+        height: 0;
+        margin-top: 0px;
+        display: block;
+    }
+    
+    .navigasi div{
+        transform: translateX(100%);
+        opacity: 0.5;
+        transition: all 0.8s;
+        display: block;
+    }
+
+    .navigasi div.slide{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+    .navigasi a{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: white;
+        color: black;
+        display: block;
+        border-bottom: 1px solid #1BA098;
+    }
+
+    .navigasi a:hover{
+        background-color: #1BA098;
+        color: white;
+    }
+
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 25px;
+        position: absolute;
+        right: 20px;
+        top: 13px;
+        
+    }
+    
+    .icon span{
+        display: block;
+        height: 5px;
+        width: 40px;
+        background-color: red;
+        transition: all 0.5s;
+    }
+
+    .icon input{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: -20px;
+        left: -9px;
+        opacity: 0;
+    }
+
+    /*Animation*/
+    /* .icon span:nth-child(2){
+        transform-origin: 0 0;
+    }
+
+    .icon span:nth-child(4){
+        transform-origin: 0 100%;
+    }
+
+    .icon input:checked ~ span:nth-child(2){
+        transform: rotate(45deg) translate(1px,-5px);
+        background-color: white;
+    }
+
+    .icon input:checked ~ span:nth-child(4){
+        transform: rotate(-45deg) translate(1px, 7px);
+    }
+
+    .icon input:checked ~ span:nth-child(3){
+        transform: scale(0);
+    } */
+
+    .photo{
+        height: 400px;
+    }
+
+    .foto{
+        position: relative;
+        width: 60%;
+        left: 20%;
+        top: 18%;
+        text-align: center;
+    }
+
+    .foto img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .foto h1{
+        font-size: 30px;
+    }
+
+    .personal-profile{
+        padding: 10px;
+    }
+    
+    .personal-profile h3{
+        font-size: 20px;
+    }
+    
+    .personal-profile p{
+        font-size: 13px;
+        text-indent: 20px;
+    }
+    
+    .pendidikan{
+        padding: 10px;
+    }
+    
+    .pendidikan p{
+        font-size: 13px;
+        text-indent: 20px;
+    }
+    
+    .pendidikan #long{
+        display: none;
+    }
+
+    .pendidikan #short{
+        display: block;
+    }
+
+    .pendidikan h3{
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    
+    .pendidikan a{
+        margin-left: 20%;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    
+    .pendidikan a:hover{
+        color: #1BA098;
+    }
+
+    .sk{
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+
+    .sk h3{
+        font-size: 20px;
+    }
+
+    .skill img{
+        display: none;
+    }
+
+    .myskill{
+        width: 100%;    
+        margin-bottom: -20px;    
+        margin-left: 0;
+    }
+    
+    .myskill h3{
+        font-size: 15px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 7px;
+        padding-bottom: 10px;
+    }
+    
+    .myskill span{
+        width: 20px;
+        height: 10px;
+        margin-top: 1px;
+        margin-left: 0;
+        background-color: white;
+        border-radius: 50px;
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+        color: #051622;
+    }
+
+        /* first skill */
+        .pth span{
+            margin-left: 45px;
+            width: 0;
+        }
+    
+        .jav span{
+            margin-left: 65px;
+            width: 0;
+        }
+    
+        .html span{
+            margin-left: 55px;
+            width: 0;
+        }
+    
+        .css span{
+            margin-left: 65px;
+            width: 0;
+        }
+    
+        .js span{
+            margin-left: 20px;
+            width: 0;
+        }
+    
+        .sql span{
+            margin-left: 65px;
+            width: 0;
+        }
+    
+    
+        /* second skill */
+        .unity span{
+            margin-left: 95px;
+            width: 0;
+    
+        }
+    
+        .pts span{
+            margin-left: 55px;
+            width: 0;
+    
+        }
+    
+        .com span{
+            margin-left: 20px;
+            width: 0;
+    
+        }
+    
+        .eng span{
+            margin-left: 80px;
+            width: 0;
+    
+        }
+    
+        .lead span{
+            margin-left: 55px;
+            width: 0;
+        }
+    
+        .cr span{
+            margin-left: 75px;
+            width: 0;
+        }
+    
+    #Dcolor{
+        background-color: white;
+        color: #1BA098;
+    }
+
+    #sus{
+        margin-left: 0;
+    }
+
+    .pengalaman{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .pengalaman h3{
+        font-size: 20px;
+    }
+
+    .pengalaman ul{
+        margin-left: 0px;
+    }
+
+    .pengalaman li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .pengalaman p{
+        font-size: 12px;
+        text-indent: 15px;
+    }
+
+    #rentalbus{
+        font-size: 12px;
+    }
+
+    #pad1{
+        padding-top: 10px;
+    }
+    
+    .pengalaman a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .pengalaman a:hover{
+        color: #1BA098;
+    }
+
+    .organisasi{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 25px;
+    }
+    
+    .organisasi h3{
+        color: #1D2228;
+        font-size: 20px;
+        text-decoration: underline #1BA098 solid 3px;
+    }
+    
+    .OE{
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    .OE ul{
+        margin-left: 0px;
+    }
+    
+    .OE li{
+        margin-bottom: 20px;
+    }
+    
+    .OE a{
+        color: black;
+    }
+    
+    .OE a:hover{
+        color: #1BA098;
+    }
+    
+    .OE #kedua{
+        margin-left: 0;
+        margin-top: -10px;
+        display: block;
+    }
+
+    .training{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .training h3{
+        font-size: 20px;
+    }
+
+    .training ul {
+        width: 80%;
+    }
+    
+    .training li{
+        margin-bottom: 20px;
+    }
+    
+    .training a{
+        font-size: 15px;
+    }
+    
+    .training a:hover{
+        color: #1BA098;
+    }
+
+    .ACHIEVEMENT{
+        width: 100%;
+    }
+
+    #lanjutan{
+        margin-top: -20px;
+    }
+
+    .srt img{
+        width: 250px;
+        height: auto;
+        box-shadow: 10px 10px #051622;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .srt img:hover{
+        box-shadow: 10px 10px #051622;;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    /* .popup-image{
+        display: flex;
+    }
+
+    .popup-image span{
+        display: none;
+    } */
+    
+    .popup-image img{
+        width: 250px;
+    }
+
+    .tombol{
+        
+        margin-top: -20px;
+    }
+
+    .footer{
+        background-color: #051622;
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+    
+    #bottom{
+        font-size: 20px;
+        color: white;
+    }
+
+    .bt{
+        margin-left: -20px;
+    }
+    
+    .bt a{
+        padding: 0;
+        border-radius: 5px;
+    }
+    
+    .bt img{
+        width: 30px;
+        height: 30px;
+        opacity: 0.7;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    .bt img:hover{
+        opacity: 1;
+    }
+
+}
