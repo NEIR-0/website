@@ -7,6 +7,25 @@
         overflow-x: hidden;
     }
 
+    /* space buat navigasi */
+    .Hspace{
+        height: 0px;
+    }
+
+    .Aspace{
+        height: 0px;
+    }
+
+    .Pspace{
+        height: 0px;
+    }
+
+    .Cspace{
+        /* background-color: yellow; */
+        height: 0px;
+        margin-bottom: -35px;
+    }
+
     .header{
         /* background-color: rebeccapurple; */
         width: 100%;
