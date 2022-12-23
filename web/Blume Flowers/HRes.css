@@ -1,0 +1,363 @@
+@media all and (max-width: 1000px){
+    /* space buat navigasi */
+    .Hspace{
+        height: 60px;
+    }
+
+    .Aspace{
+        height: 70px;
+    }
+
+    .Pspace{
+        height: 30px;
+    }
+
+    .Cspace{
+        height: 30px;
+    }
+
+    .navigasi ul li a{
+        font-size: 15px;
+        padding: 29px 25px;
+    }
+
+    .phone{
+        display: none;
+    }
+
+    .home{
+        /* background-color: blue; */
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .HDes{
+        /* background-color: blue; */
+        width: 50%;
+    }
+
+    .HDes h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .HDes p{
+        text-align: justify;
+        font-size: 12px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    
+    .HDes a{
+        font-size: 15px;
+    }
+
+    .IgHome img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .IgHome{
+        /* background-color: red; */
+        margin-right: 0;
+        background-position: center;
+        background-size: 230px;
+    }
+
+    .aboutus{
+        /* background-color: yellow; */
+        justify-content: space-evenly;
+        width: 100%;
+        width: 80%;
+    }
+
+    .IgAbout{
+        /* background-color: #ffaeae; */
+        width: 375px;
+        height: 252px;
+        margin-right: 0;
+    }
+    
+
+    .ImgAbout{
+        background-color: #ffaeae;
+        height: 230px;
+        width: 183px;
+        position: relative;
+        left: 16%;
+        box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.25);
+    }
+    
+    .ImgAbout img{
+        height: 250px;
+        width: 200px;
+        left: -15%;
+        top: 15px;
+    }
+
+    /* animation */
+    .ImgAbout img:hover{
+        top: -4.5px;
+        left: -4px;
+    }
+
+    .DAbout{
+        /* background-color: yellow; */
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .DAbout h1{
+        font-size: 30px;
+        width: 80%;
+        line-height: 50px;
+        margin-bottom: 0px;
+    }
+    
+    .DAbout p{  
+        text-align: justify;
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .DAbout i{
+        font-size: 10px;
+    }
+    
+    .DAbout a{
+        font-size: 11px;
+        padding: 3px 6px;
+        width: 30%;
+        margin-top: -10px;
+    }
+    
+    .product{
+        /* background-color: red; */
+        width: 80%;
+        padding: 5% 5px;
+    }
+    
+    .product h1{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .OurProduct{
+        /* background-color: #5B5B5B; */
+        justify-content: space-evenly;
+    }
+    
+    .ProductCard{
+        /* background-color: rebeccapurple; */
+        height: 150px;
+        width: 45%;
+        margin: 10px 10px;
+        padding: 10px 20px;
+    }
+    
+    .DProduct{
+        /* background-color: blue; */
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .DProduct h1{
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+    
+    .DProduct p{
+        text-align: left;
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+    
+    .DProduct a{
+        font-size: 10px;
+        line-height: 30px;
+    }
+    
+    /* .flower{
+        background-color: aquamarine;
+    } */
+
+    .flower img{
+        width: 90px;
+        height: 110px;
+    }
+
+    .ContactUs{
+        /* background-color: grey; */
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .map{
+        width: 350px;
+        height: 360px;
+        margin-left: 10px;
+    }
+    
+    .form{
+        /* background-color: blue; */
+        width: 350px;
+        height: 360px;
+        padding-left: 20px;
+    }
+    
+    .form h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    /* .CForm{
+        background-color: red;
+    } */
+    
+    .name{
+        padding: 15px 15px;
+        margin: 0px 0px 15px 0px;
+        font-size: 14px;
+    }
+    
+    .email{
+        padding: 15px 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .message{
+        height: 80px;
+        padding: 15px 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    
+    /* important */
+    .CForm button{
+        float: right;
+    }
+    
+    .submit{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    
+    .footer{
+        /* background-color: rebeccapurple; */
+
+        /* important */
+        overflow: hidden;
+        /**************/
+        padding-top: 5%;
+    }
+    
+    .Dfooter{
+        /* background-color: yellow; */
+        height: 200px;
+        width: 80%;
+        padding: 0 5px;
+        justify-content: space-evenly;
+    }
+    
+    .payment{
+        /* background-color: green; */
+        width: 350px;
+        height: 200px;
+        margin-right: 0px;
+    }
+    
+    .payment h1{
+        font-size: 20px;
+    }
+
+    .payment img{
+        width: 50px;
+    }
+    
+    .findus{
+        /* background-color: blue; */
+        width: 350px;
+        height: 200px;
+        margin-right: 0px;
+    }
+    
+    .findus h1{
+        font-size: 20px;
+    }
+    
+    .followus{
+        /* background-color: red; */
+        width: 350px;
+        height: 200px;
+    }
+    
+    .followus h1{
+        font-size: 20px;
+    }
+    
+    .DFindUs{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .DFindUs p{
+        margin-left: 10px;
+    }
+    
+    .iconSosIg{
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .iconSosTw{
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .iconSosWa{
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .iconSosFc{
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .IdSos{
+        margin-top: -2px;
+    }
+    
+    .IdSos a{
+        /* background-color: white; */
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .cpright img{
+        width: 400px;
+        height: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
