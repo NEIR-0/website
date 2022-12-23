@@ -1,4 +1,21 @@
 @media all and (max-width: 1000px){
+    /* space buat navigasi */
+    .Hspace{
+        height: 60px;
+    }
+
+    .Aspace{
+        height: 70px;
+    }
+
+    .Pspace{
+        height: 30px;
+    }
+
+    .Cspace{
+        height: 30px;
+    }
+
     .navigasi ul li a{
         font-size: 15px;
         padding: 29px 25px;
@@ -344,6 +361,3 @@
         margin-top: 20px;
     }
 }
-
-
-
