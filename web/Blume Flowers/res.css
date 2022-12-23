@@ -94,7 +94,7 @@
     /* animation */
     .navigasi ul li a:hover{
         transition: 0;
-        background-color: white;
+        background-color: #323232;
         color: #ffaeae;
     }
 
